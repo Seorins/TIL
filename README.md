@@ -13,4 +13,4 @@
 ## ✅ 최근 학습 기록
 
 - [2025-07-17 Git: reset vs revert](./Git/2025-07-17-reset-vs-revert.md)
-- [2025-07-16 Algorithm: 백준 1000번](./Algorithm/2025-07-16-boj1000.md)
+- [2025-07-17 Algorithm: SWEA 1936번](./Algorithm/SWEA1936.java)
