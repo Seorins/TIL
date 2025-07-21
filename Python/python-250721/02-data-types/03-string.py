@@ -26,11 +26,24 @@ print(multi_line_str)
 
 
 # String Interpolation "f-string"
+'''
+f-string은 줄이 실행될 때 name과 age의 현재 값을 문자열 안에 바로 넣어버림
+따라서 후에 name과 age의 값이 바뀌어도
+greeting 문자열은 원래 시점의 값을 반영하게 됨
+'''
+
 name = '홍길동'
 age = 25
 greeting = f'안녕하세요, 제 이름은 {name}이고 나이는 {age}살입니다.'
 # 안녕하세요, 제 이름은 홍길동이고 나이는 25살입니다.
 print(greeting)
+
+# 따라서 f-string은 그때그때 새로 생성해야 함
+name = '김싸피'
+age = 30
+greeting = f'안녕하세요, 제 이름은 {name}이고 나이는 {age}살입니다.'
+print(greeting)
+
 
 
 
@@ -47,9 +60,13 @@ print(my_str[3:])  # lo
 print(my_str[::2])  # hlo
 print(my_str[::-1])  # olleh
 
+print(my_str[-1:-3])  #출력 안됨 작은 것 ~ 큰 것 (순서 정방향 => 1이 생략된 것)
+print(my_str[-3:-1]) #출력 ll
+print(my_str[-1:-3:-1]) #출력 ol
+
 # 3. 길이
 print(len(my_str))  # 5
 
 # 4. 문자열은 불변
 # TypeError: 'str' object does not support item assignment
-my_str[1] = 'z'
+# my_str[1] = 'z'
