@@ -490,3 +490,39 @@ print(squared1)  # [1, 4, 9, 16, 25]
 squared2 = list(map(lambda x: x**2, numbers))
 print(squared2)  # [1, 4, 9, 16, 25]
 ```
+
+## map() 함수
+
+- `map(function, iterable)`은 반복 가능한 자료의 **모든 요소에 함수를 적용**해 새로운 결과를 반환
+
+```python
+numbers = [1, 2, 3]
+result = map(lambda x: x + 1, numbers)
+print(list(result))  # [2, 3, 4]
+```
+
+## sorted() 함수
+
+- `sorted(iterable, key=None, reverse=False)`는 반복 가능한 자료형을 정렬한 **새 리스트**를 반환
+
+### 매개변수
+
+- `iterable`: 정렬할 대상 (리스트, 튜플 등)
+- `key`: 정렬 기준 함수 (예: `key=len`)
+- `reverse`: `True`면 내림차순, 기본은 오름차순
+
+```python
+# 기본 정렬
+sorted([3, 1, 2])  # [1, 2, 3]
+
+# 내림차순 정렬
+sorted([3, 1, 2], reverse=True)  # [3, 2, 1]
+
+# 문자열 길이 기준 정렬
+sorted(['apple', 'kiwi', 'banana'], key=len)  # ['kiwi', 'apple', 'banana']
+
+# 튜플의 특정 요소 기준
+students = [(21, 90), (19, 95), (25, 85)]
+sorted(students, key=lambda student: student[0])
+# [(19, 95), (21, 90), (25, 85)]
+```
