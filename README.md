@@ -12,6 +12,7 @@
 
 ## ✅ 최근 학습 기록
 
+- [2025-07-24 Python: Module & Control of Flow](./Python/python-250724)
 - [2025-07-23 Python: Functions](./Python/python-250723)
 - [2025-07-22 Algorithm: Baekjoon 2635번](./Algorithm/Baekjoon2635.java)
 - [2025-07-22 Python: Python Basic Syntax2](./Python/python-250722)
