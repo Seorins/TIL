@@ -14,11 +14,12 @@
 
 ## ✅ 최근 학습 기록
 
+- [2025-07-29 Python: Data Structure(2)](./Python/python-250729)
+- [2025-07-28 Python: Data Structure(1)](./Python/python-250728)
+- [2025-07-25 Python: API](./Python/python-250725)
 - [2025-07-24 Python: Module & Control of Flow](./Python/python-250724)
 - [2025-07-23 Python: Functions](./Python/python-250723)
 - [2025-07-22 Algorithm: Baekjoon 2635번](./Algorithm/Baekjoon2635.java)
 - [2025-07-22 Python: Python Basic Syntax2](./Python/python-250722)
-- [2025-07-21 Algorithm: Baekjoon 2669번](./Algorithm/Baekjoon2669.java)
-- [2025-07-21 Git: Git 명령어 정리](./Git/Git.md)
-- [2025-07-21 Python: Python Basic Syntax](./Python/python-250721)
+
 

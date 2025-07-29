@@ -1,9 +1,9 @@
-package Algorithm;
+package Java;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StringArrayToIntArrayExamples {
 
