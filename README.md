@@ -14,11 +14,12 @@
 
 ## ✅ 최근 학습 기록
 
-- [2025-07-31 Python: OOP(2) & Exception](./Python/python-250731)
-- [2025-07-30 Python: OOP(1)](./Python/python-250730)
-- [2025-07-29 Python: Data Structure(2)](./Python/python-250729)
-- [2025-07-28 Python: Data Structure(1)](./Python/python-250728)
-- [2025-07-25 Python: API](./Python/python-250725)
-- [2025-07-24 Python: Module & Control of Flow](./Python/python-250724)
-
-
+- [2025-08-06 Algorithm: swea24792](./Algorithm/problem/swea24792)
+- [2025-08-06 Algorithm: swea16268](./Algorithm/problem/swea16268)
+- [2025-08-06 Algorithm: swea16260](./Algorithm/problem/swea16260)
+- [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712)
+- [2025-08-06 Algorithm: swea9490](./Algorithm/problem/swea9490)
+- [2025-08-06 Algorithm: swea2001](./Algorithm/problem/swea2001)
+- [2025-08-06 Algorithm: swea1979](./Algorithm/problem/swea1979)
+- [2025-08-06 Algorithm: swea1974](./Algorithm/problem/swea1974)
+- [2025-08-06 Algorithm: swea1209](./Algorithm/problem/swea1209)
