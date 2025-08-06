@@ -14,12 +14,12 @@
 
 ## ✅ 최근 학습 기록
 
-- [2025-08-06 Algorithm: swea24792](./Algorithm/problem/swea24792)
-- [2025-08-06 Algorithm: swea16268](./Algorithm/problem/swea16268)
-- [2025-08-06 Algorithm: swea16260](./Algorithm/problem/swea16260)
-- [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712)
-- [2025-08-06 Algorithm: swea9490](./Algorithm/problem/swea9490)
-- [2025-08-06 Algorithm: swea2001](./Algorithm/problem/swea2001)
-- [2025-08-06 Algorithm: swea1979](./Algorithm/problem/swea1979)
-- [2025-08-06 Algorithm: swea1974](./Algorithm/problem/swea1974)
-- [2025-08-06 Algorithm: swea1209](./Algorithm/problem/swea1209)
+- [2025-08-06 Algorithm: swea24792](./Algorithm/problem/swea24792.py)
+- [2025-08-06 Algorithm: swea16268](./Algorithm/problem/swea16268.py)
+- [2025-08-06 Algorithm: swea16260](./Algorithm/problem/swea16260.py)
+- [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712.py)
+- [2025-08-06 Algorithm: swea9490](./Algorithm/problem/swea9490.py)
+- [2025-08-06 Algorithm: swea2001](./Algorithm/problem/swea2001.py)
+- [2025-08-06 Algorithm: swea1979](./Algorithm/problem/swea1979.py)
+- [2025-08-06 Algorithm: swea1974](./Algorithm/problem/swea1974.py)
+- [2025-08-06 Algorithm: swea1209](./Algorithm/problem/swea1209.py)
