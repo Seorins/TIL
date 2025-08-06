@@ -20,7 +20,7 @@ for testcase in range(1, T + 1):
             bus_list[i] += 1
 
     for _ in range(P):
-        cnt = int(input())
+        cnt = int(input())  # 보고싶은 정류장 번호
         result.append(bus_list[cnt])
 
     print(f"#{testcase} {' '.join(map(str, result))}")
