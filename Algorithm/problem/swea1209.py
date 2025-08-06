@@ -36,6 +36,6 @@ for testcase in range(1, 11):
         right_sub_sum += main_list[i][100 - 1 - i]
 
     if max_sum < right_sub_sum:
-        max_sum = right_sub_sum
+        max_sum = right_sub_sum 
 
     print(f"#{testcase} {max_sum}")
