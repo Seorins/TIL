@@ -17,4 +17,4 @@ for testcase in range(1, T+1):
                     rocks[i-1-c] = 0
                     rocks[i-1+c] = 0
 
-    print(f"#{testcase}", *rocks)
+    print(f"#{testcase}", *rocks) 
