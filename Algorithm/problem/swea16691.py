@@ -3,7 +3,7 @@ def dfs(N, subtree):
     
     for next in tree[N]:
         dfs(next, subtree)
-        
+
 T = int(input())
 
 for tc in range(1, T+1):
@@ -18,3 +18,4 @@ for tc in range(1, T+1):
     dfs(N, subtree)
 
     print(f"#{tc} {len(subtree)}")
+    
