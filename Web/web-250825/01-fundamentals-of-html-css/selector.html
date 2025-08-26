@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 선택자 비교</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1>CSS 선택자 비교</h1>
+
+  <!-- 타입 선택자 -->
+  <p>1. 타입 선택자 p</p>
+
+  <!-- id 선택자 -->
+  <p id="id-test">2. id 선택자 #id-test</p>
+
+  <!-- class 선택자 -->
+  <p class="class-test">3. class 선택자 .class-test</p>
+
+  <!-- 하위 선택자 -->
+  <div>
+    <span class="descendant">4. 하위 선택자 div .descendant</span>
+  </div>
+
+  <!-- 자식 선택자 -->
+  <div>
+    <span class="child">5. 자식 선택자 div > .child</span>
+    <div><span class="child">손자(child) → 적용 ❌</span></div>
+  </div>
+
+  <!-- 인접 형제 선택자 -->
+  <h2>제목 H2</h2>
+  <p>6. 인접 형제 선택자 h2 + p (바로 뒤 p)</p>
+  <p>7. 일반 형제 선택자 h2 ~ p (뒤에 오는 모든 p)</p>
+
+  <!-- 그룹 선택자 -->
+  <h3>8. 그룹 선택자 (h1, h3)</h3>
+
+  <!-- 속성 선택자 -->
+  <p class="attr-exact">9. 속성 선택자: 정확히 일치 [class="attr-exact"]</p>
+  <p class="my-attr-test">10. 속성 선택자: 포함 [class*="attr"]</p>
+</body>
+</html>
