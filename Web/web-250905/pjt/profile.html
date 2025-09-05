@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="header-section">
+        <img src="images/kitty.png" alt="logo">
+        <h2>Cloud님의 프로필 페이지</h2>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+      <div class="nav-btn">
+        <a href="profile.html" class="btn">기본 정보 수정</a>
+        <a href="portfolio.html" class="btn">포트폴리오 수정</a>
+      </div>
+      <div class="nav-line"></div>
+      </div>
+    </nav>
+
+    <section id="section1">
+      <div class="container section1">
+        <div class="profile-outline">
+          <h2>기본 정보 수정</h2>
+          <div class="profile-frame row">
+            <div class="profile col-12 col-md-6">
+              <h4>프로필 사진</h4>
+              <img src="images/cloud1.jpeg" alt="프로필 사진">
+              <h4>자기 소개</h4>
+              <div class="input-group w-100 mb-3">
+                <textarea class="form-control" placeholder="안녕하세요, 저는 츄르부자가 되고 싶습니다!"></textarea>
+                <button class="btn btn-info" type="button">Update</button>
+              </div>
+              </form>
+            </div>
+            <div class="form col-12 col-md-6">
+              <form>
+                <div class="form-group">
+                    <h4><label>투자상품 선호도</label></h4>
+                    <input type="checkbox"> 주식
+                    <input type="checkbox"> 채권
+                    <input type="checkbox"> 부동산
+                    <input type="checkbox"> 가상 화폐
+                </div>
+
+                <div class="form-group">
+                    <h4><label>투자 스타일</label></h4>
+                    <input type="radio" name="style"> 안정적
+                    <input type="radio" name="style"> 중립적
+                    <input type="radio" name="style"> 공격적
+                </div>
+
+                <div class="form-group">
+                    <h4><label>관심 종목</label></h4>
+                    <input type="checkbox"> 정보기술
+                    <input type="checkbox"> 소비재
+                    <input type="checkbox"> 금융
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <div class="profile-form">
+            <div class="form">
+              <form>
+                <div class="form-group">
+                  <label>회원번호</label>
+                  <input class="form-control" type="text" value="1" aria-label="Disabled input example" disabled readonly>
+                </div>
+
+                <div class="form-group">
+                  <label>ID</label>
+                  <input class="form-control" type="text" value="박구름" aria-label="Disabled input example" disabled readonly>
+                </div>
+
+                <div class="form-group">
+                  <label>Email</label>
+                  <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="이메일을 설정해주세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                  <button class="btn btn-info" type="button">Update</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <label>Nickname</label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="닉네임을 설정해주세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button class="btn btn-info" type="button">Update</button>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label>나이</label>
+                  <div class="input-group mb-3">
+                    <input type="number" class="form-control" placeholder="나이를 설정해주세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button class="btn btn-info" type="button">Update</button>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label>자산과 연봉</label>
+                  <div class="money">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">$</span>
+                      <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>    
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">$</span>
+                      <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                      <button class="btn btn-info" type="button">Update</button>
+                    </div>
+                  </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2025 Cloud. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="home">
+      <a href="#"><i class="fa-solid fa-house"></i></a>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/926cac9937.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

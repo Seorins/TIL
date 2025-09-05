@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="header-section">
+        <img src="images/kitty.png" alt="logo">
+        <h2>Cloud님의 프로필 페이지</h2>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+      <div class="nav-btn">
+        <a href="profile.html" class="btn">기본 정보 수정</a>
+        <a href="portfolio.html" class="btn">포트폴리오 수정</a>
+      </div>
+      <div class="nav-line"></div>
+      </div>
+    </nav>
+
+    <section id="section2">
+      <div class="container section2">
+        <div class="form">
+          <h2>포트폴리오 수정</h2>
+           <form>
+                <div class="form-group">
+                  <label>회원번호</label>
+                  <input class="form-control" type="text" value="1" aria-label="Disabled input example" disabled readonly>
+                </div>
+
+                <div class="form-group">
+                  <label>ID</label>
+                  <input class="form-control" type="text" value="박구름" aria-label="Disabled input example" disabled readonly>
+                </div>
+                
+                <div class="form-group">
+                    <label>저축 성향</label>
+                    <div class="radio">
+                      <div>
+                        <input type="radio" name="style"> 도전형
+                        <input type="radio" name="style"> 검소형
+                        <input type="radio" name="style"> 알뜰형
+                      </div>
+                      <div>
+                        <button class="btn btn-info" type="button">Update</button>
+                      </div>
+                    </div>  
+                </div>
+
+                <div class="form-group">
+                    <label>최애은행</label>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="가장 좋아하는 은행을 입력해주세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <button class="btn btn-info" type="button">Update</button>
+                    </div>
+                </div>
+              </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2025 Cloud. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="home">
+      <a href="#"><i class="fa-solid fa-house"></i></a>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/926cac9937.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
