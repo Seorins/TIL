@@ -17,5 +17,4 @@ def recur(cnt, start):
         # recur(cnt+1, i) # 중복을 허용하는 조합
         path.pop()
 
-
 recur(0, 0)
