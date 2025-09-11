@@ -1,9 +1,9 @@
 T = int(input())
 
 def dfs(row):
-    global count 
+    global cnt 
     if row == N : 
-        count += 1
+        cnt += 1
         return 
     
     for j in range(N):
@@ -14,13 +14,13 @@ def dfs(row):
         
 
 for tc in range(1, T+1):
-    N = int(input()) # N*N보드에 N개의 퀸
+    N = int(input()) 
 
     col = [False] * N 
     diag1 = [False] * (2*N-1)
     diag2 = [False] * (2*N-1)
 
-    count = 0
+    cnt = 0
 
     dfs(0)
-    print(f"#{tc} {count}")
+    print(f"#{tc} {cnt}")
