@@ -14,7 +14,7 @@ def dfs(idx, price):
     if price >= min_price:
         return 
 
-    if idx >= 12:
+    if idx > 12:
         min_price = min(min_price, price)
         return 
 

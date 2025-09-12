@@ -1,7 +1,7 @@
 package Algorithm;
 import java.io.*;
 
-public class SWEA2058
+public class swea2058
 {
     public static void main(String[] args) throws Exception
     {
