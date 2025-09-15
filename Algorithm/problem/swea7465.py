@@ -5,7 +5,6 @@ def bfs(S, visited):
     dq.append(S)
     visited[S] = True
     
-    cnt = 0
     while dq: 
         v = dq.popleft()
 
@@ -22,6 +21,7 @@ for tc in range(1, T+1):
     N, M = map(int, input().split())
     people = {i:[] for i in range(1, N+1)}
 
+    # 서로를 알고 있으므로 양방향 
     for _ in range(M):
         x, y = map(int, input().split())
         people[x].append(y)
