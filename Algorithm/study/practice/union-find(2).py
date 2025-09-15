@@ -54,6 +54,9 @@ def union2(x, y):
     else :
         p[king_X] = king_y
         # 랭크가 같은 경우 
-        if rank[king_X] == rank[king_y]
+        if rank[king_X] == rank[king_y]:
         # 위에서 y가 대표가 되었으니 y의 랭크 +1
             rank[king_y] += 1
+
+
+# makeset 함수 대신 그냥 list comprehension으로 만들어도 됨
