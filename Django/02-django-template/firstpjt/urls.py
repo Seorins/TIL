@@ -16,12 +16,12 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from articles import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # 클라이언트로 부터 http://127.0.0.1:8000/articles/ 요청이 들어오면
-    # articles 앱의 views 모듈의 index 함수가 호출된다.
-    path('articles/', views.index),
+    # 클라이언트 요청 주소가 /articles/까지 일치 한다면, 
+    # 나머지 주소는 artivles 앱의 url.py로 넘김
+    path('articles/', include('articles.urls')),
 ]

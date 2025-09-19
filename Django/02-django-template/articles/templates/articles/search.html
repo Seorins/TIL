@@ -6,9 +6,10 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="#" method="GET">
+  <form action="https://search.naver.com/search.naver" method="GET">
     <label for="message">검색어</label>
-    <input type="text" name="#" id="message">
+    {% comment %} name이 key가 됨!!! {% endcomment %}
+    <input type="text" name="query" id="message">
     <input type="submit" value="submit">
   </form>
 </body>

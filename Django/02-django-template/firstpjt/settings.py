@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # 사용자가 생성한 app은 상단부터 작성하는 것을 권장 (Django의 내부 구동 순서 때문)
     'articles',
+    'pages',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
