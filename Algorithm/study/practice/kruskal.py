@@ -18,7 +18,6 @@ def union(x, y):
     rx = find_set(x)
     ry = find_set(y)
 
-    # 다시 공부
     if rx == ry : # 사이클 발생  
         return 
     
