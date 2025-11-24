@@ -1,0 +1,48 @@
+<!-- cat-api-ad.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button>냥냥펀치</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    // 목표: 버튼을 누르면 고양이 이미지를 출력하기
+    // 주소: https://api.thecatapi.com/v1/images/search
+
+    const btn = document.querySelector('button')
+
+    btn.addEventListener('click', (e)=>{
+      // console.log('반응')
+      // 버튼 클릭 시 고양이 이미지 요청하기(axios)
+      axios({
+        method : 'get', 
+        url : 'https://api.thecatapi.com/v1/images/search'
+      }).then((response)=>{
+        console.log('응답 성공!')
+        console.log(response)
+        const imgUrl = response.data[0].url // img url 가져오기
+
+        //DOM 요소 조작해서 이미지 출력
+        const imgElement = document.createElement('img')
+        imgElement.setAttribute('src', imgUrl)
+        document.body.appendChild(imgElement)
+
+
+        console.log(imgUrl)
+      }).catch((error)=>{
+        console.log('응답 실패!')
+      })
+    })
+
+  </script>
+</body>
+
+</html>
