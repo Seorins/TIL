@@ -20,6 +20,4 @@
 - [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712.py)
 - [2025-08-06 Algorithm: swea9490](./Algorithm/problem/swea9490.py)
 - [2025-08-06 Algorithm: swea2001](./Algorithm/problem/swea2001.py)
-- [2025-08-06 Algorithm: swea1979](./Algorithm/problem/swea1979.py)
-- [2025-08-06 Algorithm: swea1974](./Algorithm/problem/swea1974.py)
-- [2025-08-06 Algorithm: swea1209](./Algorithm/problem/swea1209.py)
+
