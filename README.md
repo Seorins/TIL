@@ -19,5 +19,5 @@
 - [2025-08-06 Algorithm: swea16260](./Algorithm/problem/swea16260.py)
 - [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712.py)
 - [2025-08-06 Algorithm: swea9490](./Algorithm/problem/swea9490.py)
-- [2025-08-06 Algorithm: swea2001](./Algorithm/problem/swea2001.py)
+
 
