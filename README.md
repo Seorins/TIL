@@ -7,17 +7,14 @@
 ## 📂 카테고리
 
 - [Algorithm](./Algorithm)
+- [Django](./Django)
 - [Git](./Git)
 - [Java](./Java)
 - [Python](./Python)
 - [Spring](./Spring)
-
-## ✅ 최근 학습 기록
-
-- [2025-08-06 Algorithm: swea24792](./Algorithm/problem/swea24792.py)
-- [2025-08-06 Algorithm: swea16268](./Algorithm/problem/swea16268.py)
-- [2025-08-06 Algorithm: swea16260](./Algorithm/problem/swea16260.py)
-- [2025-08-06 Algorithm: swea12712](./Algorithm/problem/swea12712.py)
-.
+- [Sql](./Sql)
+- [Git](./Git)
+- [Vue](./Vue)
+- [Web](./Web)
 
 
