@@ -16,7 +16,7 @@ def count_num(n, x, y):
         return 0
 
     length = 2 * n
-    x -= 1  # 0-index
+    x -= 1  
     y -= 1
 
     k = abs(y - x) - 1
@@ -54,6 +54,5 @@ def count_num(n, x, y):
     return find()
 
 
-# 입력 처리
 n, x, y = map(int, input().split())
 print(count_num(n, x, y))
