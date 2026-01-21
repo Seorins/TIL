@@ -34,7 +34,6 @@ def count_num(n, x, y):
         if all(used[1:]):
             return 1
 
-        # 아직 안 쓴 가장 큰 숫자부터 시도 (가지치기)
         for num in range(n, 0, -1):
             if not used[num]:
                 break
