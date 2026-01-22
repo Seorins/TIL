@@ -30,7 +30,6 @@ def count_num(n, x, y):
     used[k] = True
 
     def find():
-        # 모든 숫자 배치 완료
         if all(used[1:]):
             return 1
 
