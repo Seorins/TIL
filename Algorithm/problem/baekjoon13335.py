@@ -6,7 +6,7 @@ trucks = list(map(int, input().split()))
 bridge = deque([0] * w) # 다리 위 상태
 time = 0
 idx = 0
-cur = 0 # 현재 다리 위 총 무게
+cur = 0 
 
 while idx < n or cur > 0:
     time += 1
