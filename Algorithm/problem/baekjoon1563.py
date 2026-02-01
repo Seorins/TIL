@@ -1,31 +1,31 @@
-'''
-[출석, 지각, 결석]
+N = int(input())
+MOD = 1_000_000
 
-개근상 X = 지각을 두 번 이상 / 결석 세 번 연속
+# dp[i][l][a]
+dp = [[[0] * 3 for _ in range(2)] for _ in range(N + 1)]
+dp[0][0][0] = 1
 
-한 학기가 4일이고, O를 출석, L을 지각, A를 결석이라고 했을 때
+for i in range(N):
+    for l in range(2):
+        for a in range(3):
+            v = dp[i][l][a]
+            if v == 0:
+                continue
 
-OOOO OOOA OOOL OOAO OOAA OOAL OOLO OOLA OAOO OAOA 
-OAOL OAAO OAAL OALO OALA OLOO OLOA OLAO OLAA AOOO 
-AOOA AOOL AOAO AOAA AOAL AOLO AOLA AAOO AAOA AAOL
-AALO AALA ALOO ALOA ALAO ALAA LOOO LOOA LOAO LOAA 
-LAOO LAOA LAAO
-총 43가지이다.
+            # 1) O (출석)
+            dp[i + 1][l][0] = (dp[i + 1][l][0] + v) % MOD
 
-'''
+            # 2) A (결석) - 연속결석 3이면 안 됨
+            if a < 2:
+                dp[i + 1][l][a + 1] = (dp[i + 1][l][a + 1] + v) % MOD
 
-N = int(input()) # 한 학기 일수 
+            # 3) L (지각) - 지각 2번이면 안 됨
+            if l < 1:
+                dp[i + 1][l + 1][0] = (dp[i + 1][l + 1][0] + v) % MOD
 
-whole = N ** 3 # 전체 
+ans = 0
+for l in range(2):
+    for a in range(3):
+        ans = (ans + dp[N][l][a]) % MOD
 
-# 안 되는 날 
-# i) 지각 두 번 이상 => 전체 - 지각 0/1 일경우 
-# 0 => 1
-# 1 => N
-
-# ii) 결석 세 번 연속 
-# N - 3 + 1
-
-print(whole - (1+N) - (N-3+1))
-
-
+print(ans)
