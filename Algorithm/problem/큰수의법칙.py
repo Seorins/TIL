@@ -26,6 +26,8 @@ while True:
 print(result)
 '''
 
+# 더 효율적인 방법
+
 N, M, K = map(int, input().split())
 
 data = list(map(int, input().split()))
