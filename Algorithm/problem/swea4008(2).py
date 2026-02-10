@@ -35,8 +35,8 @@ for tc in range(1, T+1):
     plus, minus, mul, div = map(int, input().split())
     numbers = list(map(int, input().split()))
 
-    max_num = -float('inf')
-    min_num = float('inf')
+    max_num = -100000000 
+    min_num = 100000000
 
     dfs(1, numbers[0], plus, minus, mul, div)
 
