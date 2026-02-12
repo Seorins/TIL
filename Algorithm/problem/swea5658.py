@@ -19,7 +19,7 @@ for tc in range(1, T+1):
     for j in range(len(lst)):
         if len(lst[j]) == size:
             num = int(lst[j], 16)
-            if  num not in result:
+            if num not in result:
                 result.append(num)
 
     result.sort(reverse=True)
