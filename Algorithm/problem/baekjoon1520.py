@@ -39,7 +39,7 @@ print(dfs(0, 0))
 
 '''
 
-# 반복 dp
+# 2. 반복 dp
 
 n, m = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(n)]
