@@ -1,6 +1,3 @@
-import sys, os
-BASE_DIR = os.path.dirname(__file__)  
-sys.stdin = open(os.path.join(BASE_DIR, "input.txt"), "r")
 from collections import deque
 '''
 터널이 연결되어 있는 경우 이동이 가능하므로 탈주범이 있을 수 있는 위치의 개수 계산 
@@ -19,7 +16,7 @@ from collections import deque
  ( 2, 1 ) 으로 주어질 경우, 이는 세로 위치 2, 가로 위치 1을 의미
 
 기존 위치에 있는게 1시간 소요 되고 시작 
-1시간마다 움직일 수도 있고 안 움직일 수도 있음
+시간이 지나면서 갈 수 있는 모든 위치를 탐색
 
 탈주범이 있을 수 있는 위치 개수 구하기
 
@@ -45,13 +42,12 @@ def bfs(x, y, L):
 
         if t == L : 
             continue
-        
-        # 얼만큼 움직일거냐? 
-        # 그래프 값이 moves 안에 있는 값만큼
-        for di, dj in moves.get(tunnel[x][y], []):
+
+        for di, dj in moves[tunnel[x][y]]:
             nx, ny = x + di, y + dj
             if 0 <= nx < N and 0 <= ny < M : 
                 if not visited[nx][ny] and tunnel[nx][ny] != 0 :
+                    # 다음 터널이 현재 방향의 반대 방향으로 열려 있어야 연결 가능
                     if (-di, -dj) in moves[tunnel[nx][ny]] :
                         dq.append((nx, ny, t+1))
                         visited[nx][ny] = True
@@ -61,16 +57,10 @@ def bfs(x, y, L):
 T = int(input())
 
 for tc in range(1, T+1):
-    # N = 세로 크기
-    # M = 가로 크기
-    # R = 맨홀 뚜껑이 위치한 장소의 세로 위치
-    # C = 가로 위치
-    # L = 탈출 후 소요된 시간 
     N, M, R, C, L = map(int, input().split())
     tunnel = [list(map(int, input().split())) for _ in range(N)]
     visited = [[False] * (M) for _ in range(N)]
     # 맨홀 뚜껑이 시작한 위치가 시작 위치 이때 시간 1 소요 
-
 
     result = bfs(R, C, L)
 
