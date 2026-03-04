@@ -13,5 +13,5 @@ for _ in range(m):
 # 자신의 상사의 누적 칭찬을 더해줌
 for i in range(2,n+1):
     result[i] += result[superior[i-1]]    
-    
 print(*result[1:])
+    
