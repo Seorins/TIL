@@ -1,6 +1,6 @@
 # Today I Learned (TIL)
 
-꾸준히 학습하며 배운 내용들을 정리합니다.  
+학습하며 배운 내용들을 정리합니다.  
 초기 학습 내용(Java, Spring 등)은 블로그에 정리되어 있습니다.  
 
 * [블로그 (초기 학습 기록)](https://blog.naver.com/seol1n_)
