@@ -18,6 +18,9 @@ A말 기준
 - 말의 이동 방향을 반대로 하고 한 칸 이동 
 '''
 
+import sys
+input = sys.stdin.readline
+
 N, K = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(N)]
 
