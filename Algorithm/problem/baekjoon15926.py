@@ -24,4 +24,5 @@ for c in cnt:
         max_ans = max(max_ans, ans) 
     else: 
         ans = 0
+        
 print(max_ans)
