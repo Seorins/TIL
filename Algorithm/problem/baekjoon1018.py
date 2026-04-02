@@ -20,6 +20,7 @@ for i in range(N-7):
         # 두 가지 경우 다 확인해봐야 함
         cnt_w = 0  # W로 시작
         cnt_b = 0  # B로 시작
+        
         for p in range(8):
             for q in range(8):
                 if (p + q) % 2 == 0:
