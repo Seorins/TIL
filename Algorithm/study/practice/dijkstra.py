@@ -2,10 +2,16 @@ import sys
 sys.stdin = open('dijkstra_input.txt', 'r')
 from heapq import heappop, heappush
 
+from heapq import heappop, heappush
+
 def dijkstra(start_node):
     pq = [(0, start_node)] # (누적거리, 노드번호)
     dists = [INF] * V # 각 정점까지의 최단 거리를 저장할 배열
     dists[start_node] = 0 # 시작 노드 최단 거리는 0
+
+def dijkstra(start_node):
+    pq = [(0, start_node)] # 누적거리, 노드번호
+    dists = [flaot('inf')] * V
 
     while pq:
         dist, node = heappop(pq)
@@ -38,9 +44,16 @@ V, E = map(int, input().split())
 start_node = 0 # 시작점
 graph = [[] for _ in range(V)] # 인접 리스트로 구현 
 
+V, E = map(int, input().split())
+start_node = 0
+graph = [[] for _ in range(V)]
+
 for _ in range(E):
     start, end, weight = map(int, input().split())
     graph[start].append((weight, end)) # [주의] 다익스트라는 단방향
+
+for _ in range(E):
+    start, end, weight = map(int, input().split())
 
 # 출발지로부터 모든 최단 거리
 result = dijkstra(0)
