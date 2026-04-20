@@ -1,6 +1,15 @@
 import sys
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(100000000)
 input = sys.stdin.readline
+
+def dfs(u):
+    visited[u] = True
+    subtree[u] = 1
+
+    for v in tree[u]:
+        if not visited[v]:
+            dfs(v)
+            subtree[u] += subtree[v]
 
 N, R, Q = map(int, input().split())
 R -= 1
@@ -17,15 +26,6 @@ for _ in range(N - 1):
 
 visited = [False] * N
 subtree = [0] * N
-
-def dfs(u):
-    visited[u] = True
-    subtree[u] = 1
-
-    for v in tree[u]:
-        if not visited[v]:
-            dfs(v)
-            subtree[u] += subtree[v]
 
 dfs(R)
 
