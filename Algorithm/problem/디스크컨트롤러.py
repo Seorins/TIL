@@ -7,7 +7,7 @@ def solution(jobs):
     job_idx = 0 # 작업 위치
     completed = 0 # 완료 작업
     
-    # 소요시간 순으로 정렬 (작업 번호 추가)
+    # 요청시간 순으로 정렬 (작업 번호 추가)
     jobs = [(i, j, idx) for idx, (i, j) in enumerate(jobs)]
     jobs.sort()
     
@@ -20,8 +20,6 @@ def solution(jobs):
             heapq.heappush(waiting, (dur, req, idx))
             
             job_idx += 1
-            
-            cur_time 
             
         # 작업할 게 있다면
         if waiting :
