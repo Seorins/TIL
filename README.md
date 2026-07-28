@@ -53,32 +53,32 @@
 
 | Type | Count |
 | --- | ---: |
-| [구현 / 시뮬레이션](./Algorithm/problem/01_구현_시뮬레이션) | 56 |
-| [브루트포스 / 완전탐색](./Algorithm/problem/02_브루트포스_완전탐색) | 11 |
-| [백트래킹](./Algorithm/problem/03_백트래킹) | 41 |
+| [Implementation / Simulation](./Algorithm/problem/01_Implementation_Simulation) | 56 |
+| [Brute Force](./Algorithm/problem/02_BruteForce) | 11 |
+| [Backtracking](./Algorithm/problem/03_Backtracking) | 41 |
 | [DFS / BFS](./Algorithm/problem/04_DFS_BFS) | 26 |
-| [다익스트라](./Algorithm/problem/05_다익스트라) | 7 |
+| [Dijkstra](./Algorithm/problem/05_Dijkstra) | 7 |
 | [0-1 BFS](./Algorithm/problem/06_0-1_BFS) | 1 |
-| [플로이드워셜](./Algorithm/problem/07_플로이드워셜) | 1 |
+| [Floyd-Warshall](./Algorithm/problem/07_Floyd_Warshall) | 1 |
 | [MST](./Algorithm/problem/08_MST) | 3 |
-| [유니온파인드](./Algorithm/problem/09_유니온파인드) | 2 |
+| [Union Find](./Algorithm/problem/09_UnionFind) | 2 |
 | [DP](./Algorithm/problem/10_DP) | 12 |
-| [그리디](./Algorithm/problem/11_그리디) | 8 |
-| [정렬](./Algorithm/problem/12_정렬) | 7 |
-| [이분탐색](./Algorithm/problem/13_이분탐색) | 5 |
-| [투포인터 / 슬라이딩윈도우](./Algorithm/problem/14_투포인터_슬라이딩윈도우) | 3 |
-| [스택](./Algorithm/problem/15_스택) | 14 |
-| [큐 / 덱](./Algorithm/problem/16_큐_덱) | 10 |
-| [힙 / 우선순위큐](./Algorithm/problem/17_힙_우선순위큐) | 5 |
-| [세그먼트트리](./Algorithm/problem/18_세그먼트트리) | 1 |
-| [트리](./Algorithm/problem/19_트리) | 8 |
-| [문자열](./Algorithm/problem/20_문자열) | 6 |
-| [해시](./Algorithm/problem/21_해시) | 5 |
-| [비트마스킹](./Algorithm/problem/22_비트마스킹) | 7 |
-| [수학](./Algorithm/problem/23_수학) | 8 |
-| [누적합](./Algorithm/problem/24_누적합) | 1 |
-| [분할정복 / 중간에서만나기](./Algorithm/problem/25_분할정복_중간에서만나기) | 2 |
-| [Mo 알고리즘](./Algorithm/problem/26_Mo_알고리즘) | 1 |
+| [Greedy](./Algorithm/problem/11_Greedy) | 8 |
+| [Sort](./Algorithm/problem/12_Sort) | 7 |
+| [Binary Search](./Algorithm/problem/13_BinarySearch) | 5 |
+| [Two Pointer / Sliding Window](./Algorithm/problem/14_TwoPointer_SlidingWindow) | 3 |
+| [Stack](./Algorithm/problem/15_Stack) | 14 |
+| [Queue / Deque](./Algorithm/problem/16_Queue_Deque) | 10 |
+| [Heap / Priority Queue](./Algorithm/problem/17_Heap_PriorityQueue) | 5 |
+| [Segment Tree](./Algorithm/problem/18_SegmentTree) | 1 |
+| [Tree](./Algorithm/problem/19_Tree) | 8 |
+| [String](./Algorithm/problem/20_String) | 6 |
+| [Hash](./Algorithm/problem/21_Hash) | 5 |
+| [Bitmask](./Algorithm/problem/22_Bitmask) | 7 |
+| [Math](./Algorithm/problem/23_Math) | 8 |
+| [Prefix Sum](./Algorithm/problem/24_PrefixSum) | 1 |
+| [Divide Conquer / Meet in the Middle](./Algorithm/problem/25_DivideConquer_MeetInTheMiddle) | 2 |
+| [Mo Algorithm](./Algorithm/problem/26_Mo_Algorithm) | 1 |
 
 </details>
 
