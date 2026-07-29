@@ -1,5 +1,5 @@
 def solution(n, roads, required):
-    # 두 도시 사이에 존재하는 모든 도로 비용 저장
+    
     pair_costs = {}
 
     for a, b, cost in roads:
