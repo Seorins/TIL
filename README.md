@@ -4,7 +4,6 @@
 
 [![Naver Blog](https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white)](https://blog.naver.com/seol1n_)
 ![TIL](https://img.shields.io/badge/TIL-growing-FFD6E7?style=for-the-badge)
-![Updated](https://img.shields.io/badge/updated-2026.07.28-B5FFFC?style=for-the-badge)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=900&color=FF78A8&center=true&vCenter=true&width=620&lines=Small+notes,+steady+growth.;Learning+today+for+future+me.;Keep+it+clear,+keep+it+kind." alt="Typing SVG" />
 
