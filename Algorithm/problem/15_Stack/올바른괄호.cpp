@@ -16,3 +16,25 @@ bool solution(string st)
         }
     } return stack.empty();
 }
+
+
+// -------------------------------------------------
+
+
+#include<string>
+
+using namespace std;
+
+bool solution(string st)
+{   
+    int cnt = 0;
+    
+    for(char s:st){
+        if(s == '('){
+            cnt++;
+        }else{
+            if(cnt == 0) return false;
+            cnt--;
+        }
+    } return cnt == 0;
+}
